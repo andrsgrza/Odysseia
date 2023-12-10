@@ -14,7 +14,7 @@ import com.angaar.odysseia.repository.TaskRepository;
 
 @Service
 public class TaskService {
-	private static final Log Logger = LogFactory.getLog(TaskService.class);
+	//private static final Log Logger = LogFactory.getLog(TaskService.class);
 	private TaskRepository taskRepository;
 
     @Autowired
@@ -32,7 +32,7 @@ public class TaskService {
 
     public Task createTask(Task task) {
     	System.out.println("asdfasd");
-    	Logger.info("Creating task " + task.getId() + " with values " + task);
+    	//Logger.info("Creating task " + task.getId() + " with values " + task);
         return taskRepository.save(task);
     }
 

@@ -1,1 +1,1 @@
-2023-12-10 09:14:03.291 INFO  [main] c.a.o.s.TaskService - Creating task 1 with values com.angaar.odysseia.entity.Task@71da2e9e
+2023-12-10 17:05:01.660 INFO  [main] c.a.o.s.TaskService - Before execution of service
